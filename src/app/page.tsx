@@ -1,6 +1,7 @@
 // import Image from "next/image";
 
 import FeaturedCourses from "@/components/FeaturedCourses";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Instructors from "@/components/Instructors";
 import MusicSchoolTestimonial from "@/components/TestimonialCards";
@@ -17,6 +18,7 @@ export default function Home() {
       <MusicSchoolTestimonial/>
       <UpcommingWebinars/>
       <Instructors/>
+      <Footer/>
     </main>
   );
 }
